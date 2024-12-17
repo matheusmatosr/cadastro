@@ -1,4 +1,4 @@
-## Cadastro Usuários
+## Cadastro de Usuários
 
 Este projeto consiste em Crud com cadastro de pessoas feito em NodeJS e armazenando os dados no banco MongoDB.
 
