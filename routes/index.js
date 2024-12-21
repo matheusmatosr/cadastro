@@ -9,7 +9,8 @@ router.get('/', async (req, res, next) => {
 });
 
 router.post("/save", async (req, res) => {
-  const customer = req.body;
+  const { name, age, email, phone } = req.body;
+  const customer = { name, age, email, phone };
   const result = await db.insert(customer);
   console.log(result)
   res.json(result);
